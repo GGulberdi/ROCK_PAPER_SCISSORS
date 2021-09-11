@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: beige;
+  color: palevioletred;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: palevioletred;
+  text-align: center;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 18vh;
+  border-radius: 50%;
+}
+.choices {
+  width: 80%;
+  /* display: flex; */
+  margin: auto;
+}
+.choice {
+  display: inline-block;
+  margin: 20px;
+  padding: 0;
+  width: 200px;
+  height: 20vh;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.choice:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+.score-board {
+  border: 3px solid beige;
+  margin: 50px auto;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  font-size: 2rem;
+  padding: 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: beige;
+  font-size: 1.5rem;
+}
+.badge-colon {
+  color: beige;
+  font-size: 5rem;
+}
+
+#user-label {
+  position: absolute;
+  top: 50px;
+  left: -25px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 50px;
+  right: -45px;
+}
+
+.result p {
+  font-size: 3rem;
+  color: beige;
+  font-weight: bold;
+}
+
+#user-score,
+#computer-score {
+  font-size: 5rem;
+  color: beige;
+}
+
+#action-message {
+  font-size: 1rem;
+  color: beige;
+  font-weight: bold;
+}
+.reset {
+  width: 20%;
+  height: 7vh;
+  font-size: 2rem;
+  color: beige;
+  border: 3px solid beige;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding-top: 10px;
+}
+.reset:hover {
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
