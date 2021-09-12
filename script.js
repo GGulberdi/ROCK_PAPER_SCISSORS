@@ -31,7 +31,7 @@ function win(u,c){
 
     userScore.innerHTML=user
     message.innerHTML= `Your choice ${uUpper} and computer choice ${cUpper}. You win! 😄` 
-    userLable.style='background-color:green';
+    userLable.style='background-color:purple';
     computerLable.style='background-color:beige'
 
     
@@ -52,7 +52,7 @@ function lose(u,c){
     computerScore.innerHTML=computer
     message.innerHTML= `Your choice ${uUpper} and computer choice ${cUpper}. Computer win! 😲` 
     userLable.style='background-color:beige';
-    computerLable.style='background-color:green'
+    computerLable.style='background-color:purple'
     if(computer==0){
         computer =0;
         user=0;
